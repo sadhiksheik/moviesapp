@@ -1,0 +1,36 @@
+.cast-ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.cast-li{
+  margin: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cast-img{
+  height: 200px;
+  width: 140px;
+}
+@media screen and (max-width: 768px) {
+  .cast-img{
+    height: 150px;
+    width: 100px;
+  }
+}
+.char-name{
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+  width: 130px;
+}
+@media screen and (max-width: 768px) {
+  .char-name{
+    font-size: 12px;
+    width: 80px;
+  }
+}
