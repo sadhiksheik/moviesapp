@@ -24,10 +24,14 @@ const Header = () => {
     setIsToggled(prevIsToggled => !prevIsToggled);
   }
 
+  const onLogoClicked = () =>{
+    onSearchChanged("")
+  }
+
   return (
     <>
     <div className="header-cont">
-    <Link  className="home-link" to="/">
+    <Link onClick={onLogoClicked}  className="home-link" to="/">
       <p className="header-para">MovieDb</p>
       </Link>
       <div className="filters-cont">

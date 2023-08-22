@@ -29,8 +29,8 @@
 }
 
 .cover-image{
-  height: 100%;
   width: 50%;
+  align-self: stretch;
 }
 @media screen and (max-width: 768px) {
   .cover-image{
